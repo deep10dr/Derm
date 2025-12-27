@@ -5,7 +5,7 @@ from pathlib import Path
 import cv2
 import numpy as np
 
-TEMP_IMAGE_DIR = Path("../temp/images").resolve()
+TEMP_IMAGE_DIR = Path("./temp/images").resolve()
 
 
 def base64_to_cv2_image(base64_str: str) -> np.ndarray:
