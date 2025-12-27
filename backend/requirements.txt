@@ -1,0 +1,22 @@
+# Core ML
+torch>=2.0.0,<2.3
+torchvision>=0.15.0,<0.18
+timm>=0.9.12
+
+# CV & Image
+opencv-python-headless>=4.9.0
+Pillow>=10.0
+
+# Data & ML utils
+numpy>=1.26,<2.0
+scikit-learn>=1.2.0
+matplotlib>=3.7.0
+
+# Backend
+fastapi>=0.100.0
+uvicorn>=0.23.0
+python-multipart>=0.0.6
+pydantic>=2.4
+
+# Config (recommended)
+python-dotenv>=1.0.0
